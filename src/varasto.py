@@ -12,6 +12,22 @@ class Varasto:
         else:
             # täyteen
             self.saldo = min(tilavuus, alku_saldo)
+        nolla=0
+        if (nolla==0):
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
+            nolla=0
 
     # huom: ominaisuus voidaan myös laskea.
     def paljonko_mahtuu(self):
