@@ -9,6 +9,8 @@ class Varasto:
         if alku_saldo < 0.0:
             # virheellinen, nollataan
             self.saldo = 0.0
+        elif self.tilavuus==0:
+            nolla=0
         else:
             # täyteen
             self.saldo = min(tilavuus, alku_saldo)
@@ -40,5 +42,3 @@ class Varasto:
 
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
-
-        #kommentti
